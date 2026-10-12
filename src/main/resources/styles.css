@@ -1,0 +1,103 @@
+.raiz {
+    -fx-background-color: linear-gradient(to bottom right, #EAF0F8, #DCE6F1);
+}
+
+.tarjeta {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+    -fx-effect: dropshadow(gaussian, rgba(31,78,121,0.22), 22, 0.18, 0, 8);
+    -fx-padding: 30 36 26 36;
+}
+
+.titulo {
+    -fx-font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1F4E79;
+}
+
+.subtitulo {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 11.5px;
+    -fx-text-fill: #8CA0B8;
+    -fx-letter-spacing: 1px;
+}
+
+.separador {
+    -fx-background-color: #E7EDF4;
+    -fx-pref-height: 1;
+    -fx-max-height: 1;
+}
+
+.punto-acento {
+    -fx-background-radius: 5;
+    -fx-min-width: 10;
+    -fx-min-height: 10;
+    -fx-max-width: 10;
+    -fx-max-height: 10;
+}
+
+.etiqueta-campo {
+    -fx-font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
+    -fx-font-size: 12.5px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #33475B;
+}
+
+.campo-texto {
+    -fx-background-color: #F4F7FB;
+    -fx-background-radius: 9;
+    -fx-border-color: #DCE6F1;
+    -fx-border-radius: 9;
+    -fx-border-width: 1.4;
+    -fx-padding: 9 14 9 14;
+    -fx-font-family: "Consolas", "Segoe UI", monospace;
+    -fx-font-size: 14px;
+    -fx-text-fill: #1F2D3D;
+    -fx-prompt-text-fill: #AFC0D4;
+}
+
+.campo-texto:focused {
+    -fx-background-color: white;
+    -fx-border-color: #1F4E79;
+    -fx-border-width: 1.8;
+    -fx-effect: dropshadow(gaussian, rgba(31,78,121,0.20), 8, 0.3, 0, 0);
+}
+
+.boton-limpiar {
+    -fx-background-color: transparent;
+    -fx-border-color: #C6D4E4;
+    -fx-border-width: 1.4;
+    -fx-border-radius: 9;
+    -fx-background-radius: 9;
+    -fx-text-fill: #5A7290;
+    -fx-font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
+    -fx-font-size: 12.5px;
+    -fx-font-weight: bold;
+    -fx-padding: 9 26 9 26;
+    -fx-cursor: hand;
+}
+
+.boton-limpiar:hover {
+    -fx-background-color: #1F4E79;
+    -fx-border-color: #1F4E79;
+    -fx-text-fill: white;
+}
+
+.boton-limpiar:pressed {
+    -fx-background-color: #163A5C;
+    -fx-border-color: #163A5C;
+}
+
+.mensaje-error {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 11.5px;
+    -fx-text-fill: #B45309;
+    -fx-font-weight: bold;
+}
+
+.pie {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 10px;
+    -fx-text-fill: #AFC0D4;
+}
